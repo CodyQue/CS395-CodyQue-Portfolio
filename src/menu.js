@@ -11,8 +11,8 @@ export default function Menu() {
 
   const newTabs = [
     { icon: "👨‍🎓", testEntity: <Welcome />, label: "Welcome / About Me!" },
-    { icon: "💼", testEntity: "Welcome 2",label: "Experiences" },
-    { icon: "💻", testEntity: "Welcome 3",label: "Projects" },
+    { icon: "💻", testEntity: "Welcome 2",label: "Projects" },
+    { icon: "💼", testEntity: "Welcome 3",label: "Experiences" },
     { icon: "📖", testEntity: "Welcome 4",label: "Education" },
     { icon: "📬", testEntity: "Welcome 5",label: "Contacts" }
   ];
