@@ -1,0 +1,22 @@
+#welcome {
+    color: black;
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+}
+
+#welcomeContainer {
+    margin-bottom: 34%;
+}
+
+h8 {
+    font-size: 22%;
+}
+
+p {
+    font-size: 0.15em;
+}
+
+.pgraph {
+    margin-bottom: 0em;
+}

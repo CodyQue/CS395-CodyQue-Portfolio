@@ -1,22 +1,25 @@
+/**
+ * This file generates the framer layout of the website (aka the menu where the user
+ * can interact with different tabs)
+ */
 import "./styles.css";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Welcome from './welcome/welcome.js'
 
 export default function Menu() {
 
-  const allIngredients = [
-    { icon: "🍅", label: "Tomato" },
-    { icon: "🥬", label: "Lettuce" },
-    { icon: "🧀", label: "Cheese" },
-    { icon: "🥕", label: "Carrot" },
-    { icon: "🍌", label: "Banana" },
-    { icon: "🫐", label: "Blueberries" },
-    { icon: "🥂", label: "Champers?" }
+  const newTabs = [
+    { icon: "👨‍🎓", testEntity: <Welcome />, label: "Welcome / About Me!" },
+    { icon: "💼", testEntity: "Welcome 2",label: "Experiences" },
+    { icon: "💻", testEntity: "Welcome 3",label: "Projects" },
+    { icon: "📖", testEntity: "Welcome 4",label: "Education" },
+    { icon: "📬", testEntity: "Welcome 5",label: "Contacts" }
   ];
 
-  const [tomato, lettuce, cheese, carrot, banana, blueberries] = allIngredients;
+  const [welcome, experiences, projects, education, contacts] = newTabs;
 
-  const tabs = [tomato, lettuce, cheese, carrot, banana, blueberries];
+  const tabs = [welcome, experiences, projects, education, contacts];
 
   const [selectedTab, setSelectedTab] = useState(tabs[0]);
 
@@ -47,7 +50,7 @@ export default function Menu() {
             exit={{ y: -10, opacity: 0 }}
             transition={{ duration: 0.2 }}
           >
-            {selectedTab ? selectedTab.icon : "😋"}
+            {selectedTab ? selectedTab.testEntity : "😋"}
           </motion.div>
         </AnimatePresence>
       </main>

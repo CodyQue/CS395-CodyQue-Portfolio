@@ -37,6 +37,11 @@
   }
 }
 
+#appContainer {
+  margin-top: 30%;
+}
+
 .col-5 {
   color: white;
+
 }
