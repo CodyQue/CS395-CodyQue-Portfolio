@@ -9,7 +9,8 @@ function App() {
     <div className="App">
        <div class = "container" id = 'appContainer'>
             <div class = "row">
-                <div class = "col-3"></div>
+                <div class = "col-3">
+                </div>
                 <div class = "col-5">
                     <h1>Christopher (Cody) Querubin</h1>
                     <h4>Computer Science At George Mason University, 2024</h4>

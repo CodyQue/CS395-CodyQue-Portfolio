@@ -140,9 +140,9 @@ body {
   }
 
   .window {
-    width: 75vw;
-    height: 37vw;
-    margin-left: 9vw;
+    width: 100%;
+    height: 80vb;
+    margin-bottom: 50vb;
     color: black
   }
   

@@ -6,20 +6,22 @@ import "./styles.css";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Welcome from './welcome/welcome.js'
+import Projects from "./projects/projects.js"
+import Experiences from './experiences/experiences.js'
+import Contacts from './contacts/contacts.js'
 
 export default function Menu() {
 
   const newTabs = [
-    { icon: "👨‍🎓", testEntity: <Welcome />, label: "Welcome / About Me!" },
-    { icon: "💻", testEntity: "Welcome 2",label: "Projects" },
-    { icon: "💼", testEntity: "Welcome 3",label: "Experiences" },
-    { icon: "📖", testEntity: "Welcome 4",label: "Education" },
-    { icon: "📬", testEntity: "Welcome 5",label: "Contacts" }
+    { icon: "👨‍🎓", testEntity: <Welcome />, label: "Welcome!" },
+    { icon: "💻", testEntity: <Projects />,label: "Projects" },
+    { icon: "💼", testEntity: <Experiences />,label: "Experiences / Education" },
+    { icon: "📬", testEntity: <Contacts />,label: "Contacts" }
   ];
 
-  const [welcome, experiences, projects, education, contacts] = newTabs;
+  const [welcome, experiences, projects, contacts] = newTabs;
 
-  const tabs = [welcome, experiences, projects, education, contacts];
+  const tabs = [welcome, experiences, projects, contacts];
 
   const [selectedTab, setSelectedTab] = useState(tabs[0]);
 
