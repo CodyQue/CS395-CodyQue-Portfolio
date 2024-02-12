@@ -1,7 +1,10 @@
 .Projects {
     text-align: left;
     margin-left: 3%;
-    margin-right: 5%;
+    margin-right: 1%;
+    height: 80vh;
+    overflow-y:scroll;
+    margin-bottom: 50%;
 }
 
 h1 { 
@@ -13,6 +16,6 @@ a {
 }
 
 p {
-    font-size: 1vb;
+    font-size: 1.5vb;
     margin-right: 7%;
 }

@@ -6,7 +6,7 @@ function Contacts() {
             <div className="container">
                 <div className = 'row'>
                     <div className = 'col-3'>
-                        <h1><b>Contact Me!</b></h1>
+                        <h2><b>Contact Me!</b></h2>
                         <p><b>Activities: </b>General Body Member: Filipino Culture Association (FCA)</p>
                     </div>
                     <div className = 'col-3'>
