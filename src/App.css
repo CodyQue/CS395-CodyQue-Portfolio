@@ -6,3 +6,14 @@
   color: white;
 
 }
+
+#sm1 {
+  float:left;
+  margin-left: 15vw;
+}
+
+#sm2 {
+  float:right;
+  margin-right: 15vw;
+  color: rgb(153, 153, 153);
+}

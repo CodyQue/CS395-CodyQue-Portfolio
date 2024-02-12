@@ -15,13 +15,12 @@ export default function Menu() {
   const newTabs = [
     { icon: "👨‍🎓", testEntity: <Welcome />, label: "Welcome!" },
     { icon: "💻", testEntity: <Projects />,label: "Projects" },
-    { icon: "💼", testEntity: <Experiences />,label: "Experiences / Education" },
-    { icon: "📬", testEntity: <Contacts />,label: "Contacts" }
+    { icon: "💼", testEntity: <Experiences />,label: "Experiences / Education" }
   ];
 
-  const [welcome, experiences, projects, contacts] = newTabs;
+  const [welcome, experiences, projects,] = newTabs;
 
-  const tabs = [welcome, experiences, projects, contacts];
+  const tabs = [welcome, experiences, projects];
 
   const [selectedTab, setSelectedTab] = useState(tabs[0]);
 
