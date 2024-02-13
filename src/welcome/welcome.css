@@ -1,8 +1,8 @@
-#welcome {
-    color: black;
+.welcome {
+    overflow-y:scroll;
     width: 100%;
-    height: 80vh;
-    margin-left: 20%;
+    height: 73vh;
+    scale: 97%;
 }
 h8 {
     font-size: 2.5vb;
@@ -17,6 +17,39 @@ h8 {
 img {
     height: 42vmin;
     pointer-events: none;
-    margin-left: 2%;
-    margin-right: 2%;
+}
+
+#welcomeDiv {
+    margin-top: 100px;
+}
+
+#welcomeDiv, #intro {
+    margin-right: 5vb;
+    margin-left: 5vb;
+}
+
+#intro {
+    margin-top: 20%;
+    h1 {
+        font-size: 2vb;
+    }
+    p {
+        font-size: 1.25vb;
+    }
+}
+
+#keyboardlist {
+    margin-top: 20%;
+    text-align: left;
+    h1 {
+        font-size: 2vb;
+    }
+    li {
+        height: 2.7vb;
+    
+    }
+
+    .title {
+        margin-bottom: 12%;
+    }
 }

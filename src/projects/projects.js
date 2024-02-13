@@ -21,6 +21,7 @@ function Projects() {
                     </div>
                     <div className = 'col-3'>
                         <h3>3) <b>CS 395: Full Stack Web Development- Portfolio</b><a href="https://github.com/CodyQue/CS395-CodyQue-Portfolio/"><p>Project Github Repository</p></a></h3>
+                        <img src='./portfolio.png' alt="Tab Browser Extension" id = 'beimg'></img>
                         <p><b>Description: </b>A website that generates the portfolio of Cody Querubin (aka, this website).</p> 
                         <p><b>Skills Used: </b>HTML, CSS, JavaScript, NodeJS, ReactJS, BootStrap, VantaJS, AWS Amplify</p>
                     </div>
