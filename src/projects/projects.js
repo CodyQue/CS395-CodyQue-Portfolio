@@ -13,14 +13,14 @@ function Projects() {
                         <p><b>Skills Used: </b>C#, Unity Engine, Oculus Quest</p>
                     </div>
                     <div className = 'col-3'>
-                        <h3>2) <b>CS 395: Tab Browser Extension</b></h3>
+                        <h3>2) <b>CS 395: Full Stack Web Development- Tab Browser Extension</b></h3>
                         <p><b>***PROJECT IS PRIVATE, PLEASE CONTACT ME FOR ANY QUESTIONS REGARDING THIS PROJECT***</b></p>
                         <img src='./browserextension.png' alt="Tab Browser Extension" id = 'beimg'></img>
                         <p><b>Description: </b>A browser extension that, when opens a new tab, it directs the user to a custom page that contains a live clock, countdown timer, and a random quote.</p> 
                         <p><b>Skills Used: </b>HTML, CSS, JavaScript, BootStrap</p>
                     </div>
                     <div className = 'col-3'>
-                        <h3>3) <b>CS 395: Portfolio</b><a href="https://github.com/CodyQue/CS395-CodyQue-Portfolio/"><p>Project Github Repository</p></a></h3>
+                        <h3>3) <b>CS 395: Full Stack Web Development- Portfolio</b><a href="https://github.com/CodyQue/CS395-CodyQue-Portfolio/"><p>Project Github Repository</p></a></h3>
                         <p><b>Description: </b>A website that generates the portfolio of Cody Querubin (aka, this website).</p> 
                         <p><b>Skills Used: </b>HTML, CSS, JavaScript, NodeJS, ReactJS, BootStrap, VantaJS, AWS Amplify</p>
                     </div>

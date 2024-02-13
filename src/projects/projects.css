@@ -1,11 +1,11 @@
 .Projects {
     text-align: left;
     margin-left: 1%;
-    height: 80vh;
+    height: 75vh;
     width: 100%;
     overflow-y:scroll;
-    margin-bottom: 50%;
-    scale: 97%;
+    margin-top: -5vb;
+    scale: 95%;
 }
 
 a {

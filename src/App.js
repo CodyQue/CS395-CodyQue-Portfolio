@@ -15,7 +15,9 @@ function App() {
                     <h1>Christopher (Cody) Querubin</h1>
                     <h4>Computer Science At George Mason University, 2024</h4>
                     <a href="https://www.linkedin.com/in/christopher-cody-querubin-890766205/" id = "sm1"><p><b>LinkedIn</b></p></a>
+                    <img src='./linkedin.png' alt="Linkedin Logo" id = 'sm1img'></img>
                     <a href="https://github.com/CodyQue" id = "sm2"><p><b>Github</b></p></a>
+                    <img src='./github.png' alt="Github Logo" id = 'sm2img'></img>
                 </div>
                 <div class = "col-3"></div>
             </div>

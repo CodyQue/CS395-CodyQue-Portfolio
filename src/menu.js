@@ -8,7 +8,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import Welcome from './welcome/welcome.js'
 import Projects from "./projects/projects.js"
 import Experiences from './experiences/experiences.js'
-import Contacts from './contacts/contacts.js'
 
 export default function Menu() {
 

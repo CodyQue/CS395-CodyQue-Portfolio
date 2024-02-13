@@ -13,7 +13,7 @@ body {
   
   .window {
     width: 480px;
-    height: 360px;
+    height: 80vb;
     border-radius: 10px;
     background: white;
     overflow: hidden;
@@ -140,9 +140,9 @@ body {
   }
 
   .window {
+    scale: 95%;
     width: 100%;
-    height: 82vb;
-    margin-bottom: 50vb;
+    margin-bottom: 75vb;
     color: black
   }
   

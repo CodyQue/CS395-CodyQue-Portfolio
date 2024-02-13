@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin-top: -2vb;
 }
 
 .col-5 {
@@ -16,4 +17,14 @@
   float:right;
   margin-right: 15vw;
   color: rgb(153, 153, 153);
+}
+
+#sm1img {
+  height: 2vh;
+  float:left;
+}
+
+#sm2img {
+  height: 2vh;
+  float:right;
 }
