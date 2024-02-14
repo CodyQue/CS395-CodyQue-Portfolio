@@ -13,6 +13,10 @@ The source codes of this portfolio. This also contains separate directories, suc
 
 index.js is used to export the 'root' id to be displayed in the index.html. App.js is used to build the container (as well as displaying the contact information), and menu.js is used to generate the layout (this utilizes the FramerJS library).
 
+Libraries Used For This Project (And maybe install)
+- Framer-Motion
+- Bootstrap
+
 
 Sources: 
 Using Framer Motion JS: https://www.framer.com/motion/
