@@ -16,7 +16,7 @@ function Welcome() {
                 <div className  = "row">
                     <div className  = 'col-1'>
                         <div id = "intro">
-                            <h1><b>About Me! (And some of my hobbies)</b></h1>
+                            <h3><b>About Me! (And some of my hobbies)</b></h3>
                             <p className = 'pgraph'>Aside from programming, I have a few hobbies relating with computers and technologies.
                             One hobbie that interests me was building keyboards. Here are a few keyboards that I have built before.</p>
                         </div>

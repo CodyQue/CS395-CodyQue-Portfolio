@@ -10,21 +10,27 @@
 
 #sm1 {
   float:left;
-  margin-left: 15vw;
+  margin-left: 11vw;
+  p {
+    font-size: 2.5vb; 
+  }
 }
 
 #sm2 {
   float:right;
-  margin-right: 15vw;
+  margin-right: 11vw;
   color: rgb(153, 153, 153);
+  p {
+    font-size: 2.5vb; 
+  }
 }
 
 #sm1img {
-  height: 2vh;
+  height: 3.25vh;
   float:left;
 }
 
 #sm2img {
-  height: 2vh;
+  height: 3.25vh;
   float:right;
 }
