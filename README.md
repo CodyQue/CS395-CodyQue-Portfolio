@@ -1,4 +1,6 @@
 # Welcome To The Portfolio of Cody Querubin!
+URL: https://www.codyquerubin.info/
+Github Repository: https://github.com/CodyQue/CS395-CodyQue-Portfolio
 
 ## This is the repository of Cody Querubin. This will explain what each component achieves for this project.
 For starters, this code utilizes ReactJS. To run this locally, run the command: npm start (you may need to npm install react-scripts)
