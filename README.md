@@ -1,5 +1,5 @@
 # Welcome To The Portfolio of Cody Querubin!
-URL: https://www.codyquerubin.info/
+URL: https://master.d1rnln4i77mzip.amplifyapp.com/ (or https://www.codyquerubin.info/, however, this URL won't work for GMU internet, so refer to the other one)
 Github Repository: https://github.com/CodyQue/CS395-CodyQue-Portfolio
 
 ## This is the repository of Cody Querubin. This will explain what each component achieves for this project.
@@ -13,12 +13,13 @@ The source codes of this portfolio. This also contains separate directories, suc
 
 index.js is used to export the 'root' id to be displayed in the index.html. App.js is used to build the container (as well as displaying the contact information), and menu.js is used to generate the layout (this utilizes the FramerJS library).
 
-Libraries Used For This Project (And maybe install)
+## Libraries Used For This Project (And maybe install)
 - Framer-Motion
 - Bootstrap
 
+## Hosted through AWS Amplify
 
-Sources: 
+### Sources: 
 Using Framer Motion JS: https://www.framer.com/motion/
 Adding audio autoplay to HTML page: https://www.bing.com/videos/riverview/relatedvideo?q=how+to+play+background+music+in+html+page&mid=8902EEA4ADBF8D57B0DA8902EEA4ADBF8D57B0DA&FORM=VIRE
 
